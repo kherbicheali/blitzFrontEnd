@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceService } from './service.service';
-
+//var cors = require('cors');
 
 @Component({
   selector: 'app-root',
@@ -16,6 +16,8 @@ export class AppComponent implements OnInit {
   }
     
   ngOnInit() {
-   console.log(this.alltanks.getTanks());
+   console.log(this.alltanks.getTanks().subscribe());
 	}
+	
+	
 }

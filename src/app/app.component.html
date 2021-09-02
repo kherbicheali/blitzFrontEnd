@@ -3,6 +3,10 @@
 		  	<thead >
 					<tr>
 						<th scope="col" class='text-center'>Label</th>
+						<th scope="col" class='text-center'>Tier</th>
+						<th scope="col" class='text-center'>Type</th>
+						<th scope="col" class='text-center'>Nation</th>
+						<th scope="col" class='text-center'>Category</th>
 						<th scope="col" class='text-center'>DPM</th>
 						<th scope="col" class='text-center'>Speed</th>
 						<th scope="col"class='text-center'>Frontal Armor</th>
@@ -17,6 +21,55 @@
 							<th scope="col" class='text-center'>
 								<input type="text" id="Label" class="form-control" placeholder="enter new label...">
 							</th>
+							
+							<th scope="col" class='text-center'>
+								<select id="Tier" class="form-select" aria-label="Default select example">
+  								<option selected value="1">I</option>
+  								<option value="2">II</option>
+  									<option value="3">III</option>
+  									<option value="4">IV</option>
+  									<option value="4">IV</option>
+  									<option value="5">V</option>
+  									<option value="6">VI</option>
+  									<option value="7">VII</option>
+  									<option value="8">VIII</option>
+  									<option value="9">IX</option>
+  									<option value="10">X</option>
+								</select>
+							</th>
+							
+							
+							<th scope="col" class='text-center'>
+								<select id="Type" class="form-select">
+  								<option selected value="TD">TD</option>
+  								<option value="Heavy">Heavy</option>
+  									<option value="Light">Light</option>
+  									<option value="Medium">Medium</option>
+								</select>
+							</th>
+							
+							<th scope="col" class='text-center'>
+								<select id="Nation" class="form-select">
+  								<option selected value="USSR">USSR</option>
+  								<option value="Germany">Germany</option>
+  									<option value="USA">USA</option>
+  									<option value="GBR">GBR</option>
+  									<option value="France">France</option>
+  									<option value="Japan">Japan</option>
+  									<option value="China">China</option>
+  									<option value="EU">EU</option>
+								</select>
+							</th>
+							
+							
+							<th scope="col" class='text-center'>
+								<select id="Category" class="form-select">
+  								<option selected value="Premium">Premium</option>
+  								<option value="Collector">Collector</option>
+  									<option value="Researchable">Researchable</option>
+								</select>
+							</th>
+							
 							<th scope="col" class='text-center'>
 								<input type="number" id="DPM"  class="form-control" placeholder="enter new DPM...">
 							</th>
